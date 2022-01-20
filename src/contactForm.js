@@ -32,15 +32,11 @@ function Contact() {
       <h1>Contact Form</h1>
         <Form.Label>Name</Form.Label>
         <Form.Control type="text" name="user_name" placeholder="Name"/>
-        {/* <input type='text' name='user_name'/> */}
         <Form.Label>Email address</Form.Label>
         <Form.Control type="email" name="user_email" placeholder="name@example.com" />
-        {/* <label>Email</label>
-        <input type="email" name="user_email" /> */}
         <Form.Label>Message</Form.Label>
-        {/* <label>Message</label> */}
         <Form.Control name="message" as="textarea" rows={4} />
-        <Button type='submit' value='Send' variant='warning'>Send</Button>
+        <Button type='submit' value='Send' variant='warning' size="lg" id="btn-send">Send</Button>
       </Form>
     </Container>
   );
