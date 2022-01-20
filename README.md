@@ -18,7 +18,7 @@ npm i
 
 
 ### **Usage**
-**[View Live site](https://jjlindsey.github.io/movie-appJS/)**
+
 
 ### **Technologies Used:**
 ReactJS
